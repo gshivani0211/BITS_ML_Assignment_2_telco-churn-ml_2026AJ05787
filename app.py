@@ -14,7 +14,7 @@ from metrics_utils import compute_metrics
 from preprocessing import ID_COL, TARGET, clean_telco
 
 ROOT = Path(__file__).parent
-MODEL_DIR = ROOT / "Model"
+MODEL_DIR = ROOT / "model"
 
 st.set_page_config(page_title="Churn model bench", page_icon="📉", layout="wide")
 
