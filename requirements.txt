@@ -1,0 +1,9 @@
+# Set scikit-learn to the exact version on your BITS Virtual Lab machine:
+#   python -c "import sklearn; print(sklearn.__version__)"
+streamlit
+scikit-learn==1.5.2
+pandas
+numpy
+matplotlib
+seaborn
+joblib
